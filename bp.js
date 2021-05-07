@@ -9,7 +9,7 @@ var contaSusana = (percentagemSusana*valorFinal)/100;
 var contaDaniel = (percentagemDaniel*valorFinal)/100;
 
 alert(
-    "O valor do Daniel foi " + valorDaniel.toFixed(2)+ "€"
+    "O Daniel meteu:" + valorDaniel.toFixed(2)+ "€"
     +"\n"+
     "Percentagem Susana: " + percentagemSusana.toFixed(2)+"%"
     +"\n"+
