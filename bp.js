@@ -15,7 +15,7 @@ alert(
     +"\n"+
     "Percentagem Daniel: " + percentagemDaniel.toFixed(2)+"%"
     +"\n"+
-    "Conta da Susana: " + contaSusana.toFixed(2) + "€"
+    "Susana paga: " + contaSusana.toFixed(2) + "€"
     +"\n"+
-    "Conta do Daniel: " + contaDaniel.toFixed(2) + "€"
+    "Daniel paga: " + contaDaniel.toFixed(2) + "€"
 );
