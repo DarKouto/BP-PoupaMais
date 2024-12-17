@@ -9,7 +9,7 @@ var conta1 = (percentagem1*valorFinal)/100;
 var conta2 = (percentagem2*valorFinal)/100;
 
 alert(
-    "A Condutor 1 meteu: " + valor1 + "€"
+    "O Condutor 1 meteu: " + valor1 + "€"
     +"\n"+
     "O Condutor 2 meteu: " + valor2.toFixed(2) + "€"
     +"\n\n"+
