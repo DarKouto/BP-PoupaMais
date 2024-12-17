@@ -1,23 +1,23 @@
-var valorSusana = prompt("Quanto combustível meteu a Susana? (€)");
+var valor1 = prompt("Quanto combustível meteu Condutor 1? (€)");
 var valorTotal = prompt("Qual foi o valor total sem desconto? (€)");
 var valorFinal = prompt("Qual foi o preço final com desconto? (€)");
 
-var valorDaniel = valorTotal-valorSusana;
-var percentagemSusana = (100*valorSusana)/valorTotal;
-var percentagemDaniel = (100*valorDaniel)/valorTotal;
-var contaSusana = (percentagemSusana*valorFinal)/100;
-var contaDaniel = (percentagemDaniel*valorFinal)/100;
+var valor2 = valorTotal-valor1;
+var percentagem1 = (100*valor1)/valorTotal;
+var percentagem2 = (100*valor2)/valorTotal;
+var conta1 = (percentagem1*valorFinal)/100;
+var conta2 = (percentagem2*valorFinal)/100;
 
 alert(
-    "A Susana meteu: " + valorSusana + "€"
+    "A Condutor 1 meteu: " + valor1 + "€"
     +"\n"+
-    "O Daniel meteu: " + valorDaniel.toFixed(2) + "€"
+    "O Condutor 2 meteu: " + valor2.toFixed(2) + "€"
     +"\n\n"+
-    "Percentagem Susana: " + percentagemSusana.toFixed(2) + "%"
+    "Percentagem Condutor 1: " + percentagem1.toFixed(2) + "%"
     +"\n"+
-    "Percentagem Daniel: " + percentagemDaniel.toFixed(2) + "%"
+    "Percentagem Condutor 2: " + percentagem2.toFixed(2) + "%"
     +"\n\n"+
-    "Susana paga: " + contaSusana.toFixed(2) + "€"
+    "Condutor 1 paga: " + conta1.toFixed(2) + "€"
     +"\n"+
-    "Daniel paga: " + contaDaniel.toFixed(2) + "€"
+    "Condutor 2 paga: " + conta2.toFixed(2) + "€"
 );
