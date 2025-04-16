@@ -1,7 +1,7 @@
 # BP-PoupaMais
 A discount calculator for Gas, using plain HTML and JavaScript
 
-![Honest Work](https://myoctocat.com/assets/images/base-octocat.svg](https://i.kym-cdn.com/entries/icons/mobile/000/028/021/work.jpg)
+![Honest Work](https://i.kym-cdn.com/entries/icons/mobile/000/028/021/work.jpg)
 
 ## The Problem this solves
 BP had a partnership with Pingo Doce which provided gas discounts (through a Pingo Doce card).<br/>
